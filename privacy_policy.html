@@ -1,90 +1,262 @@
-<!DOCTYPE html>
+
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
+
+<title>
+
+    BlinkBeat プライバシーポリシー
+
+</title>
+
+<style>
+
+    body {
+        overflow-y: scroll;
+        margin: 0px;
+    }
+
+    font {
+        word-break: break-all;
+        font-family: arial;
+    }
+
+    .ImageTitle {
+        border: solid black;
+        border-width: 100px 100px 50px 100px;
+        box-sizing: border-box;
+    }
+
+    .ImageUpperLine {
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+        top: 50px;
+    }
+
+    .ImageLowerLine {
+    }
+
+    .ImageRightLine {
+        position: fixed;
+        max-width: 100%;
+        max-height: 100%;
+        top: 0px;
+        right: 50px;
+    }
+
+    .ImageLeftLine {
+        position: fixed;
+        max-width: 100%;
+        max-height: 100%;
+        top: 0px;
+        left: 50px;
+    }
+
+    .ImageBottomLine {
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+        bottom: 50px;
+    }
+
+    .ImageMiddleLine {
+    }
+
+    .ImageOthers {
+        border: solid white;
+        border-width: 3px 3px 3px 3px;
+        box-sizing: border-box;
+    }
+
+    .VideoYouTube {
+        border: solid white;
+        border-width: 3px 3px 3px 3px;
+        box-sizing: border-box;
+    }
+
+    .BorderText1 {
+        border: solid black;
+        border-width: 0px 60px 0px 60px;
+        box-sizing: border-box;
+    }
+
+    .FontNormal1 {
+        font-size: 20px;
+    }
+
+    .FontNormal2 {
+        font-size: 25px;
+    }
+
+    .FontTitle {
+        font-size: 60px;
+    }
+
+    .FontSubTitle {
+        font-size: 35px;
+    }
+
+    .FontLink {
+        font-size: 30px;
+    }
+</style>
+
+<body bgcolor="black" link="white" vlink="white" alink="gray">
+
 </body>
-</html>
+
+
+
+
+
+<a id="ページトップ"></a>
+
+<center>
+    <div class="relative">
+        <!-- タイトル画像 -->
+        <img class="ImageTitle" src="Image/Title.png" height="auto" width="100%">
+        <!-- タイトル下線 -->
+        <img class="ImageLowerLine" src="Image/Line.png" height="3px" width="100%">
+</center>
+
+</div>
+
+<!-- ページ上線 -->
+<img class="ImageUpperLine" src="Image/Line.png" height="3px" width="100%">
+<!-- タイトル右線 -->
+<img class="ImageRightLine" src="Image/Line.png" height="100%" width="3px">
+<!-- タイトル左線 -->
+<img class="ImageLeftLine" src="Image/Line.png" height="100%" width="3px">
+
+<br>
+
+<div class="BorderText1">
+
+    <center>
+        <font class="FontTitle" color="#0075ef">
+            ・プライバシーポリシー・
+        </font>
+    </center>
+
+    <br><br><br>
+
+    <font class="FontSubTitle" color="#0075ef">
+        [ 利用者情報の取得 ]
+    </font>
+
+    <br>
+
+    <font class="FontNormal1" color="white">
+        本アプリが利用者の個人情報を取得することはありません。
+    </font>
+
+    <br><br><br>
+
+    <font class="FontSubTitle" color="#0075ef">
+        [ 利用者情報の利用 ]
+    </font>
+
+    <br>
+
+    <font class="FontNormal1" color="white">
+        本アプリが利用者の個人情報を利用することはありません。
+    </font>
+
+    <br><br><br>
+
+    <font class="FontSubTitle" color="#0075ef">
+        [ 利用者情報の第三者提供 ]
+    </font>
+
+    <br>
+
+    <font class="FontNormal1" color="white">
+        本アプリが利用者の個人情報を第三者へ提供することはありません。
+    </font>
+
+    <br><br><br>
+
+    <font class="FontSubTitle" color="#0075ef">
+        [ 使用ツール ]
+    </font>
+
+    <br>
+
+    <font class="FontNormal1" color="white">
+        本アプリでは、広告配信ツールとしてAdMob(Google Inc.)を使用しており、AdMobが利用者の情報を自動取得する場合があります。
+        取得する情報、利用目的、第三者への提供等につきましては、広告配信事業者のアプリケーション・プライバシーポリシーよりご確認ください。
+    </font>
+
+    <br><br><br>
+
+    <font class="FontSubTitle" color="#0075ef">
+        [ お問い合わせ先 ]
+    </font>
+
+    <br>
+
+    <font class="FontNormal1" color="white">
+        何かご不明な点がございましたら下記からお問い合わせください。
+    </font>
+
+    <br>
+
+    <font class="FontNormal1">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjuTOQ7KgxftAmVWnpI-5XyPeMTf9jr6btGpgQM-e1gIuo2Q/viewform?embedded=true" target="_self">お問い合わせフォーム</a>
+    </font>
+
+    <br><br><br><br><br>
+    <br><br><br>
+
+    <center>
+        <font class="FontLink">
+            <a href="https://edunity.github.io/WebSite_CubeChainer_Help/" target="_self">→ホームページトップ</a>
+        </font>
+    </center>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="relative">
+    <img class="ImageMiddleLine" src="Image/Line.png" height="3px" width="100%">
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="relative">
+    <img class="ImageMiddleLine" src="Image/Line.png" height="3px" width="100%">
+</div>
+
+<br>
+
+<html>
+
+
